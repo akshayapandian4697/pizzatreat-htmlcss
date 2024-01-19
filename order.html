@@ -1,0 +1,142 @@
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Pizza Treat</title>
+     <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <main>
+            <header class="header">
+                <a href = "index.html"><h2>Pizza Treat</h2></a>
+                <p>Canada's Classic Pride! From The Garden, To the Oven!</p>
+            </header>
+            <hr>
+            <div class="menu">
+                <div id="order-menu">
+                    <h3 class = "center">Order Your Favorite Pizza Treat!</h3>
+                    <form method="post" name="forms" action="index.html">
+                        <div class="grid-container">
+                            <div class="grid-item">
+                                <h3>Pick Your Pizza Size :</h3>
+                                <ul>
+                                    <li>Small : CA $ 11.55</li>
+                                    <li>Medium : CA $15.25</li>
+                                    <li>Large : CA $22.45</li>
+                                    <li>Extra-large : CA $25.99</li>
+                                    <li>Toppings : CA $1.79 Each</li>
+                                    <li>Plus 13% HST</li>
+                                </ul>
+                                <h3>Number of Pizza's:</h3>
+                                <input type="number" id = "quantity" name="quantity" size="20" placeholder="1">
+                            </div>
+                            <div class="grid-item">
+                                <h3>Personal Information</h3>
+                                <form>
+                                    <label for="name">Enter Your Name:</label>
+                                    <input type="text" id = "name" name="name" size="20" placeholder="Booking Name">
+
+                                    <label for="email">Enter Your Email Address:</label>
+                                    <input type="text" id = "email" name="email" size="20" placeholder="Email Address">
+
+                                    <h3>Pizza size &amp; Crust</h3>
+                                    <select name="size">
+                                        <option>Select Pizza Size</option>
+                                        <option value="1">Small</option>
+                                        <option value="2">Medium</option>
+                                        <option value="3">Large</option>
+                                        <option value="4">X-Large</option>
+                                    </select>
+                                    <select name="crust">
+                                        <option value="1">Regular Crust</option>
+                                        <option value="2">Thin Crust</option>
+                                    </select>
+                                    
+                                    <h3>Cheeses</h3>
+                                    
+                                    <input type="radio" name="cheese" value="1" />Mozzarella
+                                    <input type="radio" name="cheese" value="2" />Reduced Fat
+                                    <input type="radio" name="cheese" value="3" />Feta
+                                    
+                                    <h3>Sauces</h3>
+                                    <input type="radio" name="sauce" value="1" />Pizza Sauce
+                                    <input type="radio" name="sauce" value="2" />BBQ Sauce
+                                    <input type="radio" name="sauce" value="3" />Garlic Sauce
+                                    
+                                    <h3>Special Instructions</h3>
+                                    <textarea name="instructions" rows="3" cols="42"></textarea>
+                                </form>
+                            </div>
+                            <div class="grid-item">
+                                
+                                <h3>Choose Toppings</h3>
+                                <p>$1.79 Each</p>
+                                <div class="forms2">
+                                    <input type="checkbox" name="topping" value="1" /> Anchovies<br />
+                                    <input type="checkbox" name="topping" value="2" /> Bacon<br />
+                                    <input type="checkbox" name="topping" value="3" /> Ham<br />
+                                    <input type="checkbox" name="topping" value="4" /> Pepperoni<br />
+                                    <input type="checkbox" name="topping" value="5" /> Salami<br />
+                                    <input type="checkbox" name="topping" value="6" /> Sausage<br />
+                                    <input type="checkbox" name="topping" value="7" /> Broccoli<br />
+                                    <input type="checkbox" name="topping" value="8" /> Olives<br />
+                                    <input type="checkbox" name="topping" value="9" /> Peppers<br />
+                                    <input type="checkbox" name="topping" value="10" /> Mushrooms<br />
+                                    <input type="checkbox" name="topping" value="11" /> Red Onions<br />
+                                    <input type="checkbox" name="topping" value="12" /> Garlic<br />
+                                </div><br><br>
+                                <div class = "center">
+                                    <label for="submit"></label>
+                                    <input type="reset" class = "submitBtn" value="Start Over"/>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                    <div class = "center">
+                        <label for="submit"></label>
+                        <a href="index.html"><input type="submit" class = "submitBtn" value="Place Your Order"/></a>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <footer class="footer">
+                <hr>
+                <div id="flex_container">
+                    <div class="item">
+                        <h4>Open Hours</h4>
+                        <ul>
+                            <li>Monday to Thursday: 9.00 AM - 10.00 PM </li>
+                            <li>Friday and Saturday: 9.00 AM - 02.00 AM </li>
+                            <li>Sunday: 09.00 AM - 11.00 PM </li>
+                        </ul>
+                    </div>
+
+                    <div class="item">
+                        <h4>Store Locator</h4>
+                        <p>
+                            Pizza Treat,
+                            299 Doon Valley,
+                            Kitchener, Ontario </p>
+                            Email to: pizza_treat@gmail.com
+                    </div>
+
+                    <div class="item">
+                        <h4>Quick Links</h4>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="menu.html">Menu</a></li>
+                            <li><a href="order.html">Place an Order</a></li>
+                            <li><a href="reserve.html">Reserve a Table</a></li>
+                        </ul>
+                    </div>
+
+                    <p id="copyright">
+                        Copyright &copy; Pizza Treat, Canada
+                    </p>
+                    </div>
+            </footer>
+
+        </main>
+
+    </body>
+</html>
